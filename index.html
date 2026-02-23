@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>baked.bymayaa</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:Poppins,sans-serif;
+  background:#fff5f7;
+  color:#5a3a3a;
+}
+
+header{
+  background:#ffe3ec;
+  padding:18px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  font-family:'Playfair Display',serif;
+  font-size:28px;
+  font-weight:700;
+}
+
+nav a{
+  margin:0 14px;
+  text-decoration:none;
+  color:#5a3a3a;
+  font-weight:500;
+}
+
+.hero{
+  height:92vh;
+  background:linear-gradient(rgba(255,255,255,.65),rgba(255,255,255,.65)),
+  url('https://images.unsplash.com/photo-1535141192574-5d4897c12636?q=80&w=1600') center/cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+}
+
+.hero h1{
+  font-family:'Playfair Display',serif;
+  font-size:64px;
+}
+
+.hero p{
+  font-size:20px;
+  margin:18px 0 28px;
+}
+
+.btn{
+  background:#ff8fb1;
+  color:#fff;
+  padding:15px 32px;
+  border:none;
+  border-radius:40px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+section{
+  padding:80px 40px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.section-title{
+  font-family:'Playfair Display',serif;
+  font-size:42px;
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.menu{
+  background:#fff0f5;
+  border-radius:24px;
+  padding:40px;
+  text-align:center;
+  line-height:2;
+  font-size:18px;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:28px;
+}
+
+.card{
+  background:#fff;
+  border-radius:22px;
+  box-shadow:0 10px 24px rgba(0,0,0,.08);
+  overflow:hidden;
+}
+
+.card img{
+  width:100%;
+  height:210px;
+  object-fit:cover;
+}
+
+.card-content{
+  padding:20px;
+}
+
+.about{
+  text-align:center;
+  line-height:1.9;
+  font-size:17px;
+}
+
+footer{
+  background:#5a3a3a;
+  color:#fff;
+  text-align:center;
+  padding:35px 20px;
+  margin-top:60px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">baked.bymayaa</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Order</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Cute • Aesthetic • Handmade</h1>
+  <p>Modern home bakery specializing in dreamy Basque cheesecakes</p>
+  <button class="btn">Order Online</button>
+</section>
+
+<section>
+  <h2 class="section-title">Burnt Basque Cheesecake</h2>
+  <div class="menu">
+    ✨ Original<br>
+    🍯 Lotus Biscoff<br>
+    ☕ Tiramisu Cheesecake<br>
+    🍫 Brownie Cheesecake<br>
+    🍓 Berries & Cream<br>
+    🌿 Earl Grey Cheesecake
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">More Sweet Treats</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1559622214-f8a9850965bb?q=80&w=800">
+      <div class="card-content">
+        <h3>Custom Cakes</h3>
+        <p>Minimal, cute & celebration ready</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=800">
+      <div class="card-content">
+        <h3>Cupcakes</h3>
+        <p>Soft, fluffy and aesthetic</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?q=80&w=800">
+      <div class="card-content">
+        <h3>Cheesecakes</h3>
+        <p>Creamy, rich and unforgettable</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Made With Love</h2>
+  <p class="about">
+    baked.bymayaa is a cozy modern home bakery creating cute, aesthetic desserts
+    from scratch using premium ingredients — crafted to look beautiful and taste even better.
+  </p>
+</section>
+
+<footer>
+  © 2026 baked.bymayaa — Handmade with love ♡
+</footer>
+
+</body>
+</html>
